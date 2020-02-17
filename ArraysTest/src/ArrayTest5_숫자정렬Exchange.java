@@ -55,8 +55,9 @@ public class ArrayTest5_숫자정렬Exchange {
 //		numArr[1] = scan.nextInt();
 //		numArr[2] = scan.nextInt();
 		
+		System.out.println("국어, 영어, 수학 순서로 점수를 입력해주세요:");
+		
 		for (int i = 0; i < numArr.length; i++) {
-			System.out.println("국어, 영어, 수학 순서로 점수를 입력해주세요:");
 			numArr[i] = scan.nextInt();
 		}
 		
