@@ -1,5 +1,5 @@
 
-public class OperatorEx4 {
+public class OperatorEx4_내림처리 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
