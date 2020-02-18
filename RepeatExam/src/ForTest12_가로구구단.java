@@ -1,10 +1,10 @@
 
 /*
  * while문을 이용한
- * 구구단(세로)
+ * 구구단(가로)
  * 
 */
-public class ForTest13 {
+public class ForTest12_가로구구단 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,15 +16,15 @@ public class ForTest13 {
 		num1 = 2;
 		num2 = 1;
 		
-		while (num2 <= 9) {
-			while (num1 <= 9) {
+		while (num1 <= 9) {
+			while (num2 <= 9) {
 				result = num1 * num2;
 				System.out.print(num1 + " * " + num2 + " = " + result + "\t");
-				num1++;
+				num2++;
 			}
 			System.out.println();
-			num1 = 2;
-			num2++;
+			num2 = 1;
+			num1++;
 		}
 
 	}

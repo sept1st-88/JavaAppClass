@@ -33,7 +33,7 @@ public class ArrayEx7_버블정렬3단계 {
 					numArr[n] = numArr[n+1];
 					numArr[n+1] = tempNum;
 					
-					changed = true; // 자리 바꿈이 발생했음
+					changed = true; // 자리 바꿈이 발생했음. 즉 if문이 실행됐다는 거다.
 				} // if end
 						
 				// 배열 값들의 중간 정렬 결과 확인
@@ -45,7 +45,7 @@ public class ArrayEx7_버블정렬3단계 {
 			} // n for end
 			
 			if(changed == false) {
-				break; // 자리 변경이 없으면 반복문을 벗어남
+				break; // 자리 변경이 없으면 (if문이 실행되지 않았을시) 반복문을 벗어남
 			}
 			
 		} // i for end

@@ -14,8 +14,8 @@ public class ArrayEx6_버블정렬2단계 {
 		
 		int tempNum = 0;
 		for (int i = 0; i < numArr.length; i++) {
-			for (int n = 0; n < numArr.length - 1 - i; n++) {
-				count++;
+			for (int n = 0; n < numArr.length - 1 - i; n++) {	//-i는 횟수가 진행될때 마다 마지막에서부터의 자릿수들은 더이상 계산하지 않는것이다
+				count++;										//ie) 첫번째 수행에서는 4번 비교를 했다면, 그 다음에는 3번, 그 다음은 2번 등등...
 				if(numArr[n] > numArr[n + 1]) {
 					tempNum = numArr[n];
 					numArr[n] = numArr[n + 1];
