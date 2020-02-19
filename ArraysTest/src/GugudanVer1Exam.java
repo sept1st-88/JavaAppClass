@@ -14,21 +14,21 @@ public class GugudanVer1Exam {
 		
 		int[] mulNumArr = new int[72];
 		
-//		for (int i = 2; i < 10; i++) {
-//			for (int j = 1; j < 10 ; j++) {
-//				mulNumArr[i] = i * j;
-//				System.out.print(i + " * " + j + " = " + mulNumArr[i] + "\t");
-//			}
-//			System.out.println();
-//		}
-		
-		for (int i = 1; i < 10; i++) {
-			for (int j = 2; j < 10 ; j++) {
-				mulNumArr[i] = j * i;
-				System.out.print(j + " * " + i + " = " + mulNumArr[i] + "\t");
+		for (int i = 0; i < 8; i++) {
+			for (int j = 1; j < 10 ; j++) {
+				mulNumArr[i] = (i + 2) * j;
+				System.out.print((i + 2) + " * " + j + " = " + mulNumArr[i] + "\t");
 			}
 			System.out.println();
 		}
+		
+//		for (int i = 1; i < 10; i++) {
+//			for (int j = 2; j < 10 ; j++) {
+//				mulNumArr[i] = j * i;
+//				System.out.print(j + " * " + i + " = " + mulNumArr[i] + "\t");
+//			}
+//			System.out.println();
+//		}
 		
 //		2 + "*" + = (2 * i)
 //		2 * 1 = mulNumArr[0] 3 * 1 = mulNumArr[1]  ,,, 	9 * 1 = mulNumArr[8]
