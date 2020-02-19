@@ -14,14 +14,20 @@ public class GugudanVer1Exam {
 		
 		int[] mulNumArr = new int[72];
 		
-		int multiple = 0;
+//		for (int i = 2; i < 10; i++) {
+//			for (int j = 1; j < 10 ; j++) {
+//				mulNumArr[i] = i * j;
+//				System.out.print(i + " * " + j + " = " + mulNumArr[i] + "\t");
+//			}
+//			System.out.println();
+//		}
 		
-		for (int i = 2; i < 10; i++) {
-			for (int j = 1; j < 10 ; j++) {
-				multiple = i * j;
+		for (int i = 1; i < 10; i++) {
+			for (int j = 2; j < 10 ; j++) {
+				mulNumArr[i] = j * i;
+				System.out.print(j + " * " + i + " = " + mulNumArr[i] + "\t");
 			}
-			mulNumArr[i] = multiple;
-			System.out.println(mulNumArr[i]);
+			System.out.println();
 		}
 		
 //		2 + "*" + = (2 * i)
