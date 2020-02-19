@@ -12,7 +12,27 @@ public class GugudanVer2Exam {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[][] mulNumArr = new int[8][9];
+		//가로 
+//		int[][] mulNumArr = new int[8][9];
+		
+//		for (int i = 0; i < mulNumArr.length; i++) {
+//			for (int j = 0; j < mulNumArr[0].length; j++) {
+//				mulNumArr[i][j] = (i + 2) * (j + 1);
+//				System.out.print((i + 2) + " * " + (j + 1) + " = " + mulNumArr[i][j] + " \t ");
+//			}
+//			System.out.println();
+//		}
+		
+		//세로 
+		int[][] mulNumArr = new int[9][8];
+		
+		for (int i = 0; i < mulNumArr.length; i++) {
+			for (int j = 0; j < mulNumArr[0].length; j++) {
+				mulNumArr[i][j] = (j + 2) * (i + 1);
+				System.out.print((j + 2) + " * " + (i + 1) + " = " + mulNumArr[i][j] + " \t ");
+			}
+			System.out.println();
+		}
 		
 //		mulNumArr[0][0] = 
 		

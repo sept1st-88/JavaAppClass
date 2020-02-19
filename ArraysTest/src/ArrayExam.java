@@ -10,7 +10,7 @@ public class ArrayExam {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] mulnumArr = new int[??];
+//		int[] mulnumArr = new int[??];s
 		
 //		2 * 1 = mulNumArr[0] 3 * 1 = mulNumArr[1] ,,, 9 * 1 = mulNumArr[8]
 //		2 * 2 = 4 3 * 2 = 6 ,,, 9 * 2 = 18

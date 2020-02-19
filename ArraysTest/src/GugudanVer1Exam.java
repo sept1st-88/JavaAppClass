@@ -13,11 +13,14 @@ public class GugudanVer1Exam {
 		// TODO Auto-generated method stub
 		
 		int[] mulNumArr = new int[72];
+		int count = 0;
 		
 		for (int i = 0; i < 8; i++) {
 			for (int j = 1; j < 10 ; j++) {
-				mulNumArr[i] = (i + 2) * j;
-				System.out.print((i + 2) + " * " + j + " = " + mulNumArr[i] + "\t");
+				count++;
+				mulNumArr[j] = (i + 2) * j;
+				System.out.print((i + 2) + " * " + j + " = " + mulNumArr[j] + "\t");
+				System.out.println(mulNumArr[j]);
 			}
 			System.out.println();
 		}
