@@ -1,20 +1,20 @@
 
-public class CardMain {
+public class CardMain_변수타입 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		//변수와 메서드
 		
-		System.out.println("Card.width = " + Card.width);
-		System.out.println("Card.height = " + Card.height);
+		System.out.println("Card.width = " + Card_변수타입.width);
+		System.out.println("Card.height = " + Card_변수타입.height);
 		
 		//객체 or 인스턴스
-		Card card1 = new Card();	//인스턴스는 new를 생성해야지만 불러올 수 있다
+		Card_변수타입 card1 = new Card_변수타입();	//인스턴스 변수들은 new를 생성해야지만 불러올 수 있다
 		card1.kind = "Heart";
 		card1.num = 7;
 		
-		Card card2 = new Card();
+		Card_변수타입 card2 = new Card_변수타입();
 		card2.kind = "Spade";
 		card2.num = 4;
 		
