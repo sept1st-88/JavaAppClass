@@ -15,15 +15,37 @@ public class GugudanVer1Exam {
 		int[] mulNumArr = new int[72];
 		int count = 0;
 		
-		for (int i = 0; i < mulNumArr.length; i++) {
-			count++;
-			for (int j = 1; j < 10 ; j++) {
-				mulNumArr[j] = (i + 2) * j;
-				System.out.print((i + 2) + " * " + j + " = " + mulNumArr[j] + "\t");
-				System.out.println(mulNumArr[j]);
+		//가로 
+//		for (int i = 0; i < 8; i++) {
+//			for (int j = 1; j < 10 ; j++) {
+//				mulNumArr[count] = (i + 2) * j;
+//				System.out.print((i + 2) + " * " + j + " = " + mulNumArr[count] + "\t");
+//				count++;
+//			}
+//			System.out.println();
+//		}
+		
+		//세로 
+		for (int i = 1; i < 10; i++) {
+			for (int j = 0; j < 8 ; j++) {
+				mulNumArr[count] = (j + 2) * i;
+				System.out.print((j + 2) + " * " + i + " = " + mulNumArr[count] + "\t");
+				count++;
 			}
 			System.out.println();
 		}
+		
+		//확인
+		System.out.println();
+		System.out.println("확인:");
+		System.out.println(mulNumArr[3]);
+		System.out.println(mulNumArr[71]);
+		
+		
+		
+		/*
+		설명
+		*/
 		
 //		for (int i = 1; i < 10; i++) {
 //			for (int j = 2; j < 10 ; j++) {

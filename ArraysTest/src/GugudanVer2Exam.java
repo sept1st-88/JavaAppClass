@@ -14,7 +14,7 @@ public class GugudanVer2Exam {
 		
 		//가로 
 //		int[][] mulNumArr = new int[8][9];
-		
+//		
 //		for (int i = 0; i < mulNumArr.length; i++) {
 //			for (int j = 0; j < mulNumArr[0].length; j++) {
 //				mulNumArr[i][j] = (i + 2) * (j + 1);
@@ -33,6 +33,18 @@ public class GugudanVer2Exam {
 			}
 			System.out.println();
 		}
+		
+		//확인 
+		System.out.println();
+		System.out.println("확인:");
+		System.out.println(mulNumArr[1][2]);
+		System.out.println(mulNumArr[7][7]);
+		
+		
+		
+		/*
+		설명
+		*/
 		
 //		mulNumArr[0][0] = 
 		
