@@ -15,9 +15,9 @@ public class GugudanVer1Exam {
 		int[] mulNumArr = new int[72];
 		int count = 0;
 		
-		for (int i = 0; i < 8; i++) {
+		for (int i = 0; i < mulNumArr.length; i++) {
+			count++;
 			for (int j = 1; j < 10 ; j++) {
-				count++;
 				mulNumArr[j] = (i + 2) * j;
 				System.out.print((i + 2) + " * " + j + " = " + mulNumArr[j] + "\t");
 				System.out.println(mulNumArr[j]);
