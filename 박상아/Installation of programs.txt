@@ -1,0 +1,90 @@
+
+오라클
+https://www.oracle.com/kr/index.html
+
+다운로드 > JAVA > JDK > Java SE 8 > JDK download > 해당 버전 다운
+
+*jdk download means jre + jdk download
+jre download only means jre download
+
+jdk = for developers (개발자영역)
+jre = for consumers (일반인)
+
+
+이클립스
+https://www.eclipse.org/
+
+> 다운로드 > download packages
+
+
+
+파일질라
+> 다운로드 클라이언트
+
+
+
+
+
+컴퓨터에서 확인을 거친다
+> 검색: 실행 (윈도우 + r) > cmd > type java & javac to check if it is installed
+
+After java download must change directory on cmd to where jdk1.8.0_241 > bin is.
+Type " cd C:\Program Files\Java\jdk1.8.0_241\bin " (whatever directory is)
+
+내PC > right click 속성 > 고급 시스템 설정 > 고급 > 환경 변수 > JAVA HOME이란 변수가 없을시 새로 만들기 > 변수이릅: JAVA_HOME > 변수 값: 디렉터리 찾아보기 클릭해서 jdk1.8.0_241 경로를 입력
+
+시스템 변수 중에 path를 선택 > 편집 > 새로만들기 > %JAVA_HOME%\bin > 확인
+
+
+cmd close (exit) and reopen:
+
+java -version
+javac -version
+
+Difference between java & javac:
+https://www.tutorialspoint.com/what-is-the-difference-between-javac-java-commands
+
+The javac command is used to compile Java programs, taking .java files as input and produces bytecode.
+Ex. javac sample.java
+
+The java command is used to execute the bytecode of java.
+Ex. java sample
+
+
+ECLIPSE
+
+eclipse.ini > change number 256 to 512 > save
+
+eclipse.exe > right click 보내기 > 바탕화면에 바로가기 > 실행 > C:\workspaceAVD\workspaceJAVA > Launch
+
+*앞으로 수행할 것들이 이곳에 저장된다.
+
+
+Window > Perspective > Open perspective > Java
+
+
+Making .class using cmd:
+1. Make empty text file.
+2. Open with Notepad++
+3. Change name of file as .java file
+4. Change directory (cd) on cmd to text file's directory
+5. Type: javac filename.java
+6. This will make a new .class file with same name.
+
+
+
+
+
+에러 발생시 조치:
+1. 에러 메세지를 잘 읽고 해당 부분의 코드를 살펴본다. 이상이 없으면 해당 코드의 주위(윗줄과 아래 줄)도 함꼐 살펴본다.
+2. 그래도 이상이 없으면 에러 메세지는 잊어버리고 기본적인 부분을 재확인한다. 대부분의 에러는 사소한 것인 경우가 많다. (ex. 대소문자 구분, 띄어쓰기, 등)
+4. 의심이 가는 부분을 주석처리 하거나 따로 떼어내서 테스트 한다.
+
+
+
+
+Preferences > Java > Installed JREs > jre1.8.0 > Edit > Directory to where jdk1.8.0 is.
+
+
+
+
