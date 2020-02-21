@@ -6,7 +6,7 @@ public class ParameterTest2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//		찹조 변수
+//		참조 변수
 		Data2 data2 = new Data2();
 		
 		int x = 0;	//지역변수
