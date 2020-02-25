@@ -90,11 +90,11 @@ public class StringEx1 {
 		//int lastIndexOf(String str)
 		//지정된 문자열을 인스턴스의 문자열 끝에서부터 찾아서
 		//위치index를 알려준다. 없으면  -1을 반환한다
-		String s = "java.java.java";
-		int idx1 = s.lastIndexOf("java");
-		int idx2 = s.indexOf("java");
-		System.out.println(idx1);
-		System.out.println(idx2);
+//		String s = "java.java.java";
+//		int idx1 = s.lastIndexOf("java");
+//		int idx2 = s.indexOf("java");
+//		System.out.println(idx1);
+//		System.out.println(idx2);
 		
 		//int length()
 		//문자열의 길이를 알려준다

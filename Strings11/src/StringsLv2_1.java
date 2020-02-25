@@ -15,7 +15,8 @@ public class StringsLv2_1 {
 		
 //		changeStr = originStr.substring(lastIndex);
 //		changeStr = String.valueOf(originStr.charAt(lastIndex));
-		changeStr = originStr.charAt(lastIndex) + "";
+		changeStr = originStr.charAt(lastIndex) + "";	//위처럼 valueOf를 하는 것보다 
+														//이렇게 더 간단한 방법으로 문자열로 변환시킨
 		
 		//문자열 안에서 마지막 문자가 무엇인지 출력하시오
 		
