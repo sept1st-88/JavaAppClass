@@ -1,0 +1,6 @@
+Drag java files to default package folder > double click next to (left of) line number
+> click cockroach (F11) > switch
+
+Step Over(F6) - 한줄 라인 라인을 수행하며 넘어간다
+Step Into(F5) - 들어선다
+Resume(F8) - 중단점을 넘어간다
