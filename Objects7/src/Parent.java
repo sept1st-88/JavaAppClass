@@ -7,4 +7,8 @@ public class Parent {
 //		super();
 //	}
 	
+	public void method() {
+		
+	}
+	
 }
