@@ -18,11 +18,12 @@ public class StringLv4_2 {
 		//문자열 배열로 변경
 		String[] strArr1 = originStr.split("자바");
 		
-		changeStr = strArr1[0] + "자바를 변경" + strArr1[1] + "자바를 변경" + strArr1[2];
+		changeStr = strArr1[0] + "객체" + strArr1[1] + "객체" + strArr1[2];
 		
 		System.out.println(originStr);
 		System.out.println(changeStr);
 		
+		//시도...실패
 //		for (int i = 0; i < strArr1.length; i++) {
 //			System.out.print(strArr1[i]);
 //			if(i < strArr1.length - 1) {
