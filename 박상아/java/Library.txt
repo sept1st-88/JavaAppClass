@@ -1,0 +1,9 @@
+라이버리
+	- 기본 단위 .jar (클래스만 배포한다. 메인X)
+	- Right click class file> Export > Java > JAR file > 
+	  (개발자들과 공유하는거라면)check export java source files and resources > 
+	  Browse > Next > Next > Finish > Ok
+
+	- 다른 사람 라이브러리 불러오기:
+	  Right Click Project > Build Path > Configure Build Path > Libraries 
+	  > Add External JARS > Select .zip file > Apply and Close
