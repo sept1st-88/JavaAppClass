@@ -1,0 +1,6 @@
+Value Object (Vo 객체)
+	- 정보(Value값)만으로 구성 ex. BookVo.java
+
+데이터(인스턴스 변수, getter setter, toString())는 데이터끼리 로직은 로직 끼리
+
+Dto객체

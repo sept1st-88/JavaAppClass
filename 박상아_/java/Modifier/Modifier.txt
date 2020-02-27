@@ -1,0 +1,47 @@
+// 제어자(modifier)?
+// 제어자는 클래스, 변수 또는 메서드의 선언부에 함께 사용되어 부가적인
+// 의미를 부여한다
+// 제어자 종류는 크게 접근 제어자와 그 외의 제어자로 나눌 수 있다
+// etc - static, final, abstract, synchronized등
+
+public class StaticTest {
+	
+//	static - 클래스의, 공통적인
+//	사용가능한 곳 - 멤버 변수, 메서드
+	
+	static int width = 100;
+	
+	static int max() {
+		return 0;
+	}
+
+}
+
+
+// final?
+// 마지막의, 변경될 수 없는
+// final이 사용될 수 있는 곳
+// 클래스, 메서드, 멤버변수, 지역변수
+
+final class FinalTest {	//이 클래스 내에 코드는 모두 완전하다. 절대 재정의 할 수 없다. 그러므로 결코 부모가 될 수 없다
+	
+//	상수(고정) 값은 파스칼 표기법으로 작성한다
+	final static int MAX_SIZE = 100;	//final static - 모든 곳에서 (공통적으로) 불변의 변수
+	
+	final int max() {
+		final int tempNum = 0;
+//		MAX_SIZE = 32;	//변경 할 수 없다
+		Math.random();
+		
+		return tempNum;
+	}
+	
+}
+
+
+// 접근 제어자(access modifier)? - 보완의 영역
+// 		접근제어자는 멤버 또는 클래스에 사용되어, 해당하는 멤버 또는 클래스를 외부에서
+//		접근하지 못하도록 제한하는 역할을 한다
+//		접근 제어자가 default임을 알리기 위해 실제로 default를 붙이진 않는다
+//		클래스나 멤버변수, 메서드, 생성자에 접근 제어자가 지정되어 있지 않다면,
+//		접근 제어자가 default임을 뜻한다
