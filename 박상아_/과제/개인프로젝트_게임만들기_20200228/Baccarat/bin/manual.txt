@@ -1,0 +1,39 @@
+AdminDTO(게임을 하는 가상 Player, Banker) 
+member String name : Player, Banker, Tie 이름 (누가 승리했습니다 할때 사용) 
+       String firstCard  : 첫번째 카드
+       String secondCard : 두번째 카드
+       String thirdCard  : 세번째 카드
+       int battingMoney  : 사람들이 걸은 돈의 합
+	   int score		 : 카드들의 합  0 ~ 9 숫자가 9에 가까울 수록 좋음
+UserDTO (돈 거는 사람들, Player or Banker에 딜)
+member String name	 	: 게임 참가자 이름
+	   int money 		: 보유금
+       int battingMoney : 한번걸 때 얼마 걸건가
+       int choice    	: 누구한테 걸었나 (1:유져 2:Banker 0:Tie(무승부))
+
+CardSelection.Class
+기능 : 카드 섞기, 카드 배정, 카드덱 생성
+Return : String ex) String str = "5◇";
+
+Rule.Class
+기능 : STAND? NUTRAL? getThirdCard? (User, Banker 조건 다름:둘다 짜) 
+Return : boolean True/False
+
+Process
+1. 카드 두장씩 받기
+2. 돈 걸기
+3. 카드 오픈
+4. 룰 적용 - 3번째 카드 받기? 
+{
+
+}
+
+5. 3번째 카드 받건 말건 일단 만들고 Open 결과 확인(Card Class 호출)
+6. 돈받기
+ 
+메소드 ( Card가 숫자 뱉어주면 계산은 Process Method)
+
+LoopClass  ( Main 에서 호출)
+ 
+Batting.Class 
+return 걍 판돈 * 2 (Banker: 판돈 * 1.95)
