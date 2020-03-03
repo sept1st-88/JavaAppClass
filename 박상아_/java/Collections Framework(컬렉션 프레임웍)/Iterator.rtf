@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg949\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset129 AppleSDGothicNeo-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Iterator\
+	- 4\'b0\'b3\'c0\'c7 \'b8\'de\'bc\'ad\'b5\'e5\'b0\'a1 \'c0\'d6\'b4\'d9\
+	- List\'bf\'cd Set \'c0\'ce\'c5\'cd\'c6\'e4\'c0\'cc\'bd\'ba\'b8\'a6 \'b1\'b8\'c7\'f6\'c7\'d1 \'c4\'c3\'b7\'ba\'bc\'c7\'bf\'a1\'b5\'b5 \'bb\'e7\'bf\'eb \'b0\'a1\'b4\'c9\
+	- \'c4\'c3\'b7\'ba\'bc\'c7\'bf\'a1 \'c0\'fa\'c0\'e5\'b5\'c8 \'bf\'e4\'bc\'d2\'b5\'e9\'c0\'bb \'c0\'d0\'be\'ee\'bf\'c0\'b4\'c2 \'b9\'e6\'b9\'fd\'c0\'bb \'c7\'a5\'c1\'d8\'c8\'ad\'c7\'d1 \'b0\'cd (\'c4\'c3\'b7\'ba\'bc\'c7\'c0\'c7 \'c1\'be\'b7\'f9\'bf\'a1 \'b0\'fc\'b0\'e8 \'be\'f8\'c0\'cc \'b5\'bf\'c0\'cf\'c7\'d1 \'b9\'e6\'bd\'c4\'c0\'b8\'b7\'ce\
+	\'c4\'c3\'b7\'ba\'bc\'c7\'c0\'c7 \'bf\'e4\'bc\'d2\'bf\'a1 \'c1\'a2\'b1\'d9 \'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 \'b9\'e6\'b9\'fd)\
+	- Iterator \'c4\'c3\'b7\'ba\'bc\'c7\'c0\'c7 \'bf\'e4\'bc\'d2\'bf\'a1 \'c1\'a2\'b1\'d9\'c7\'cf\'b7\'c1\'b8\'e9 \'c4\'c3\'b7\'ba\'bc\'c7\'bf\'a1 iterator()\'b8\'a6 \'c8\'a3\'c3\'e2\'c7\'d8\'bc\'ad Iterator\'b8\'a6 \'b1\'b8\'c7\'f6\'c7\'d1 \'b0\'b4\'c3\'bc\'b8\'a6 \'be\'f2\'be\'ee\'bc\'ad \'bb\'e7\'bf\'eb\
+	ex. 	Collection c = new ArrayList(); //\'b4\'d9\'b8\'a5 \'c4\'c3\'b7\'ba\'bc\'c7\'c0\'b8\'b7\'ce \'ba\'af\'b0\'e6\'c7\'d2 \'8b\'9a\'b4\'c2 \'c0\'cc \'ba\'ce\'ba\'d0\'b8\'b8 \'b0\'ed\'c4\'a1\'b8\'e9 \'b5\'c8\'b4\'d9.\
+\
+		Iterator it = c.iterator();\
+\
+		while(it.hasNext()) \{\
+			System.out.println(it.next());\
+		\}\
+		//ArrayList\'bf\'a1 \'c0\'d6\'b4\'c2 \'b8\'f0\'b5\'e7 \'bf\'e4\'bc\'d2\'b5\'e9\'c0\'bb \'c3\'e2\'b7\'c2\'c7\'cf\'b4\'c2 \'c4\'da\'b5\'e5\
+\
+	boolean hasNext() - \'c7\'d9\'bd\'c9\
+	\'c0\'d0\'be\'ee \'bf\'c3 \'bf\'e4\'bc\'d2\'b0\'a1 \'b3\'b2\'be\'c6\'c0\'d6\'b4\'c2\'c1\'f6 \'c8\'ae\'c0\'ce\'c7\'d1\'b4\'d9. \'c0\'d6\'c0\'b8\'b8\'e9 true, \'be\'f8\'c0\'b8\'b8\'e9 false\'b8\'a6 \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9\
+\
+	Object next() - \'c7\'d9\'bd\'c9\
+	\'b4\'d9\'c0\'bd \'bf\'e4\'bc\'d2\'b8\'a6 \'c0\'d0\'be\'ee \'bf\'c2\'b4\'d9. next()\'b8\'a6 \'c8\'a3\'c3\'e2\'c7\'cf\'b1\'e2 \'c0\'fc\'bf\'a1 hasNext()\'b8\'a6 \'c8\'a3\'c3\'e2\'c7\'d8\'bc\'ad \'c0\'d0\'be\'ee \'bf\'c3 \'bf\'e4\'bc\'d2\'b0\'a1 \'c0\'d6\'b4\'c2\'c1\'f6 \
+	\'c8\'ae\'c0\'ce\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'cc \'be\'c8\'c0\'fc\'c7\'cf\'b4\'d9.\
+\
+	void remove() - \'b5\'f0\'c6\'fa\'c6\'ae \'b8\'de\'bc\'ad\'b5\'e5\
+	next()\'b7\'ce \'c0\'d0\'be\'ee \'bf\'c2 \'bf\'e4\'bc\'d2\'b8\'a6 \'bb\'e8\'c1\'a6\'c7\'d1\'b4\'d9, next()\'b8\'a6 \'c8\'a3\'c3\'e2\'c7\'d1 \'b4\'d9\'c0\'bd\'bf\'a1 remove()\'b8\'a6 \'c8\'a3\'c3\'e2\'c7\'d8\'be\'df\'c7\'d1\'b4\'d9. (\'bc\'b1\'c5\'c3\'c0\'fb \'b1\'e2\'b4\'c9)\
+\
+	void forEachRemainint<Consumer(? super E> action) - \'b5\'f0\'c6\'fa\'c6\'ae \'b8\'de\'bc\'ad\'b5\'e5\
+	\'c4\'c3\'b7\'ba\'bc\'c7\'bf\'a1 \'b3\'b2\'be\'c6\'c0\'d6\'b4\'c2 \'bf\'e4\'bc\'d2\'b5\'e9\'bf\'a1 \'b4\'eb\'c7\'d8 \'c1\'f6\'c1\'a4\'b5\'c8 \'c0\'db\'be\'f7(action)\'c0\'bb \'bc\'f6\'c7\'e0\'c7\'d1\'b4\'d9. \'b6\'f7\'b4\'d9\'bd\'c4\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'b5\'f0\'c6\'fa\'c6\'ae \'b8\'de\'bc\'ad\'b5\'e5.\
+\
+Enumeration - Iterator\'c0\'c7 \'b1\'b8\'b9\'f6\'c0\'fc}
