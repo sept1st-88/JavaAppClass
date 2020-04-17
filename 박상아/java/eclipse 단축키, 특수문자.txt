@@ -1,0 +1,39 @@
+
+단축키
+
+
+ctrl + / : 한줄 주석
+
+ctrl + shift + / : 범위 주석
+
+ctrl + shift + \ : 범위 주석 해제
+
+ctrl + f11 : 실행(Run)
+
+syso + ctrl + space : System.out.println();
+
+f2 : rename
+
+ctrl + alt + ↓ : 현재 줄을 복사 붙이기
+
+alt + down: 블록 or 라인 이동
+
+alt + 왼쪽 화살표 or 오른쪽: 왼쪽 오른쪽 탭 전환
+
+메서드 위체에서 f3: 선언 부로 이동
+
+ctrl + shift + s : save all
+
+ctrl + . : 문제가 발생한 영역으로 이동
+
+ctrl + 1 : 문제가 발생한 영역에 빠른 힌트를 보여준다
+
+ctrl + shift + r : 자원 찾기 -> 파일 찾기
+
+
+출력값
+
+
+\n : 엔터
+
+\t : 탭(간격)

@@ -1,0 +1,7 @@
+인코딩
+
+
+이클립스
+
+Window > preferences > General > Workspace > Text File Encoding: Other UTF-8
+Window > preferences > General > Content Types > Text > Java Source File > Default encoding: UTF-8 > Update

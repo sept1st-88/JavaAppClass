@@ -1,0 +1,10 @@
+컴파일러: 고급언어 -> 저급언어 (컴파일링)
+
+역컴파일러 -> 디컴파일러
+
+플러그인(plug-in)
+Help > Eclipes Marketplace > Enhanced Class Decompiler
+> Restart 후 확인 > Preferences > Java > Decompiler > Default Class JDK8
+
+기존에 만들어진 파일들도 자동으로 디컴파일러가 실행되게
+https://dololak.tistory.com/697

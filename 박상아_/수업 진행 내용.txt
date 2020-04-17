@@ -1,0 +1,20 @@
+컬렉션 프레임웍
+List, Map
+
+날짜
+Date, Calendar
+
+simpledateformat
+
+데이터베이스(DB)
+2개
+
+설계 문서작성
+화면단
+html
+자바스크립트
+
+서버프로그램
+jsp
+
+임베디드

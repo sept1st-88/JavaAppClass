@@ -1,0 +1,22 @@
+Strings(문자열)
+
+public class StringEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//String은 실제로는 클래스이다,
+		//하지만 자주 사용하기 때문에 기본형으로 사용할 수 있게 만들어졌다
+		String str = "";
+		
+		String s = new String();
+		
+		String test = new String("생성자까지?");
+		
+		s.equals("??");
+
+	}
+
+}
+
+https://myeonguni.tistory.com/60

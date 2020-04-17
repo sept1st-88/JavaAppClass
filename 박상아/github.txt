@@ -1,0 +1,57 @@
+
+github
+파일 형상 관리
+
+버전관리, 백업, 복구
+
+
+
+★★이클립스에서 git으로 올리는것
+
+자바 프로젝트 right click > Team > Share Project
+> Repository: Create (Browse and create new working space called Repositories)
+Repository directory: C:\Repositories\JavaAppClass
+
+**저장이 안된 파일이 있으면 작동 안됨.
+
+폴더가 바뀜 (뒤에 master & 물음표가 생긴다)
+> right click > Team > Add to index (여러개 선택해서 올릴시 안뜸. 그러면 Git Staging 탭에서 ++겹쳐져있는 걸 누른다
+
+물음표가 사라지고 *표가 생긴다
+> right click > Team > Commit
+> Commit Message 칸에 "깃허브 연동 테스트"
+> Author(작성자), Committer(관리자): (바꿔준다 이메일이나 사용자 이름 <>안에다 작성)
+> Commit and Push
+> URI: git에서 복사해온 주소
+
+*표가 사라지고 도토리가 생긴다
+
+
+//
+workspaceAVD를 가보면 올려놓은 프로젝트는 사라져 있다. (저장소를 따로 만든 것)
+대신 저장한 C:\Repositories\JavaAppClass 경로에 있다
+//
+
+
+★★Git에서 받기
+1. Git 주소로 가서 > Clone or download > 복사하기 아이콘 누르기
+
+2. 이클립스에서
+Window > Perspective > Open Perspective > Other
+> Git
+
+or Open Perspective > Git
+
+Clone a git repository and add the clone to this view 아이콘 클릭 > URI에 위 주소 붙여넣기 > Next > Next
+> Directory: C:\Repositories\AppJavaAvdClass (뒤에 이름은 git 이름으로 폴더 생성)
+
+Right click folder > Import Projects... > Finish
+
+
+
+
+이클립스
+> Git > 폴더 우클릭 > Delete repository > select: Delete git repository data and history:
+
+> Java > 폴더 우클릭 > 위 처럼 다시 올린다
+
